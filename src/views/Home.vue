@@ -29,15 +29,118 @@
         <tr>
           <th></th>
           <th v-for="date in thisWeek" v-bind:key="date">{{date[0]}}月{{date[1]}}日（{{date[2]}}）</th>
-        <tr v-for="time in timeList" v-bind:key="time">
-          <td>{{time}}</td>
-          <td>◯</td>
-          <td>◯</td>
-          <td>◯</td>
-          <td>◯</td>
-          <td>◯</td>
-          <td>◯</td>
-          <td>◯</td>
+        </tr>
+        <tr>
+          <td>10:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[0]}}</td>
+        </tr>
+        <tr>
+          <td>10:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[1]}}</td>
+        </tr>
+        <tr>
+          <td>11:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[2]}}</td>
+        </tr>
+        <tr>
+          <td>11:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[3]}}</td>
+        </tr>
+        <tr>
+          <td>12:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[4]}}</td>
+        </tr>
+        <tr>
+          <td>12:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[5]}}</td>
+        </tr>
+        <tr>
+          <td>13:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[6]}}</td>
+        </tr>
+        <tr>
+          <td>13:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[7]}}</td>
+        </tr>
+        <tr>
+          <td>14:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[8]}}</td>
+        </tr>
+        <tr>
+          <td>14:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[9]}}</td>
+        </tr>
+        <tr>
+          <td>15:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[10]}}</td>
+        </tr>
+        <tr>
+          <td>15:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[11]}}</td>
+        </tr>
+        <tr>
+          <td>16:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[12]}}</td>
+        </tr>
+        <tr>
+          <td>16:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[13]}}</td>
+        </tr>
+        <tr>
+          <td>17:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[14]}}</td>
+        </tr>
+        <tr>
+          <td>17:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[15]}}</td>
+        </tr>
+        <tr>
+          <td>18:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[16]}}</td>
+        </tr>
+        <tr>
+          <td>18:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[17]}}</td>
+        </tr>
+        <tr>
+          <td>19:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[18]}}</td>
+        </tr>
+        <tr>
+          <td>19:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[19]}}</td>
+        </tr>
+        <tr>
+          <td>20:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[20]}}</td>
+        </tr>
+        <tr>
+          <td>20:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[21]}}</td>
+        </tr>
+        <tr>
+          <td>21:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[22]}}</td>
+        </tr>
+        <tr>
+          <td>21:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[23]}}</td>
+        </tr>
+        <tr>
+          <td>22:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[24]}}</td>
+        </tr>
+        <tr>
+          <td>22:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[25]}}</td>
+        </tr>
+        <tr>
+          <td>23:00</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[26]}}</td>
+        </tr>
+        <tr>
+          <td>23:30</td>
+          <td v-for="availability in dateList" v-bind:key="availability">{{availability[27]}}</td>
         </tr>
       </table>
     
@@ -106,6 +209,218 @@ export default {
        "21:30",
        "22:00",
        "22:30",
+     ],
+     dateList: [
+       [
+         "a",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
+       [
+         "b",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
+       [
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
+       [
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
+       [
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
+       [
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
+       [
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+         "◯",
+       ],
      ],
    }
  },
