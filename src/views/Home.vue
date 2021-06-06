@@ -31,7 +31,7 @@
           <th v-for="date in thisWeek" v-bind:key="date">{{date[0]}}月{{date[1]}}日（{{date[2]}}）</th>
         <tr v-for="time in timeList" v-bind:key="time">
           <td>{{time}}</td>
-          <td @click="alert">◯</td>
+          <td>◯</td>
           <td>◯</td>
           <td>◯</td>
           <td>◯</td>
